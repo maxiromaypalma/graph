@@ -6,8 +6,7 @@ def subscribe_to_field(schema, subscription, field):
     async def main(schema):
         result = await schema.subscribe(subscription)
         async for item in result:
-            out = item.data[field]
-            print(f'subscription: {out}')
+            print(item.data[field])
     return asyncio.run(main(schema))
 
 def subscribe_to_time_of_day(schema):
