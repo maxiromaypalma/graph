@@ -9,9 +9,10 @@ it runs a REPL to execute commands
 
 type help in the REPL to get all the valid commands
 
->> help
 
 ```text
+>> help
+
 valid commands are:
 ===================
 state
