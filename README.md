@@ -1,6 +1,12 @@
 # graph
 graph is a simple GraphQL cli command utility to store values in memory WIP
 
+# install
+
+to install run ./install.py
+
+this creates a virtual enviroment and install the dependencies
+
 # run
 
 ./run.py
